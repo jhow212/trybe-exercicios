@@ -1,0 +1,29 @@
+h1 {
+    color: orange;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+.lista-de-amigos, .lista-de-amigos2 {
+      background-color: rgb(150, 140, 140);
+      color:purple;   
+  }
+
+p {
+    font-weight: 600;
+    font-size: 2em;
+    font-style: italic;
+    text-decoration: underline purple;
+}
+body {
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+.itens {
+    color: rgb(204, 49, 49);
+    text-decoration: none;
+    font-weight: bold;
+}
+.imagem {
+    border-radius: 100%;
+}
