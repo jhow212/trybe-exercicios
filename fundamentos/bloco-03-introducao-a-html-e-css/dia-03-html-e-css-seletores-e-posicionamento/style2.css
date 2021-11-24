@@ -4,10 +4,12 @@ h1, p {
 
 li:hover {
     background-color: purple;
+    
 }
 
-li:active {
+li:active transition: linear;{
     color: rgb(173, 139, 204);
+    
 }
 
 ol, ul {

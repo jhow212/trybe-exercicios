@@ -1,0 +1,11 @@
+div:hover {
+    background-color: darkblue;
+    max-width: 140px;
+    line-height: 20px;
+    padding: 10px 10px;
+}
+
+div {
+    color: darkgreen;
+    color: darksalmon;
+}
