@@ -25,3 +25,18 @@ else if (num1 < num2){
 else {
     console.log("os numeros são iguais")
 }
+
+
+const numero1 = 12;
+const numero2 = 28;
+const numero3 = 46;
+
+if (numero1 > numero2 && numero1 > numero3) {
+    console.log("o numero1 é o maior");
+}
+else if (numero2 > numero1 && numero2 > numero3){
+    console.log("o numero2 é o maior");
+}
+else {
+    console.log("o numero3 é o maior")
+}
