@@ -13,3 +13,15 @@ console.log(multiplicacao);
 console.log(divisao);
 console.log(modulo);
 
+const num1 = 28;
+const num2 = 23;
+
+if (num1 > num2) {
+    console.log("o primeiro numero é maior");
+}
+else if (num1 < num2){
+    console.log("o segundo numero é maior");
+}
+else {
+    console.log("os numeros são iguais")
+}
