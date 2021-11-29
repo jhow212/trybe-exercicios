@@ -40,3 +40,15 @@ else if (numero2 > numero1 && numero2 > numero3){
 else {
     console.log("o numero3 é o maior")
 }
+
+const verificacao = -5;
+
+if (verificacao >= 1) {
+    console.log("numero positivo!")
+}
+else if (verificacao <= -1) {
+    console.log("numero negativo!")
+}
+else {
+    console.log("valor 0")
+}
