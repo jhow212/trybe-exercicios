@@ -52,3 +52,17 @@ else if (verificacao <= -1) {
 else {
     console.log("valor 0")
 }
+
+const angulo1 = 80;
+const angulo2 = 80;
+const angulo3 = 20;
+
+if (angulo1 + angulo2 + angulo3 === 180) {
+    console.log(true)
+}
+else if (angulo1 + angulo2 + angulo3 !== 180) {
+    console.log(false)
+}
+else {
+    console.log("Erro")
+}
