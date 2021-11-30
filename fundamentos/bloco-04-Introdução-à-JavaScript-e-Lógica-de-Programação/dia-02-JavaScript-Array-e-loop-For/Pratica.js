@@ -48,3 +48,15 @@ for (let numero = 0; numero < numbers.length; numero +=1) {
 }
 
 console.log(impar);
+
+let resultados = 0;
+let menorNumero = 1000;
+
+for(let menor = 0; menor < numbers.length; menor +=1) {
+   resultados = numbers[menor];
+
+  if (resultados < menorNumero) {
+    menorNumero = resultados;
+  }
+}
+console.log(menorNumero);
