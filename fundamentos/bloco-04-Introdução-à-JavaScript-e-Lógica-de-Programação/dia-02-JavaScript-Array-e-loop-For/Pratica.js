@@ -36,3 +36,15 @@ for(let index = 0; index < numbers.length; index +=1) {
   }
 }
 console.log(maiorNumero);
+
+let numeros = 0;
+let impar = [];
+for (let numero = 0; numero < numbers.length; numero +=1) {
+    numeros = numbers[numero];
+
+  if (numeros % 2 === 1) {
+    impar.push(numeros);
+  }
+}
+
+console.log(impar);
