@@ -69,3 +69,11 @@ for (let novos = 0; novos <= 25; novos +=1) {
       array.push(novos)
 }
 console.log(array);
+
+
+let divisoes = [];
+
+for (let divididos = 0; divididos < array.length; divididos +=1) {
+  divisoes.push(array[divididos] / 2);
+}
+console.log(divisoes);
