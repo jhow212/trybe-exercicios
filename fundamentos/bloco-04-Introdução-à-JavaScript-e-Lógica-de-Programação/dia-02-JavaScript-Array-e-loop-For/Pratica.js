@@ -60,3 +60,12 @@ for(let menor = 1; menor < numbers.length; menor +=1) {
   }
 }
 console.log(menorNumero);
+
+
+
+let array = [];
+
+for (let novos = 0; novos <= 25; novos +=1) {
+      array.push(novos)
+}
+console.log(array);
