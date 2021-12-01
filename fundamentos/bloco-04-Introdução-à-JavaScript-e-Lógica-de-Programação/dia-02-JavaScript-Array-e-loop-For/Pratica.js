@@ -49,8 +49,10 @@ for (let numero = 0; numero < numbers.length; numero +=1) {
 
 console.log(impar);
 
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
 let resultados = 0;
-let menorNumero = 1000;
+let menorNumero = numbers[0];
 
 for(let menor = 0; menor < numbers.length; menor +=1) {
    resultados = numbers[menor];
