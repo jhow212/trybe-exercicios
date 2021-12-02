@@ -30,3 +30,20 @@ function verificandoMaiorIndice(array) {
 }
 
 console.log(verificandoMaiorIndice(teste));
+
+//Exercicio 3
+function verificandoMaiorNumero(array) {
+  let resultado = 0;
+  let maiorNumero = 0;
+
+  for (let index = 0; index < array.length; index += 1) {
+    resultado = array[index];
+
+    if (resultado > maiorNumero) {
+      maiorNumero = resultado;
+    }
+  }
+  return maiorNumero;
+}
+
+console.log(verificandoMaiorNumero(teste));
