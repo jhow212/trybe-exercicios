@@ -68,3 +68,6 @@ leitor.livrosFavoritos.push (
   }
   )
   console.log(leitor.livrosFavoritos);
+
+  //Exercicio 7
+  console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos')
