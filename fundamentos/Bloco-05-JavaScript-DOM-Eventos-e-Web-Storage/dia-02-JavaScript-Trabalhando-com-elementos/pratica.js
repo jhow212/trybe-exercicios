@@ -6,6 +6,8 @@ let primeiroF = document.getElementById('primeiroFilhoDoFilho');
 
 let pai = ondeVoceEsta.parentElement;
 
+primeiroF.innerText = 'Terminei'
+
 pai.firstElementChild
 ondeVoceEsta.previousElementSibling
 ondeVoceEsta.nextSibling
@@ -19,8 +21,3 @@ console.log(ondeVoceEsta.nextSibling)
 console.log(ondeVoceEsta.nextElementSibling)
 console.log(terceiroFPai)
 
-// document.querySelector('#primeiroFilhoDoFilho').innerText = 'Achei'
-
-// console.log(document.getElementById('pai').firstElementChild)
-
-// console.log(document.getElementById('elementoOndeVoceEsta'))
