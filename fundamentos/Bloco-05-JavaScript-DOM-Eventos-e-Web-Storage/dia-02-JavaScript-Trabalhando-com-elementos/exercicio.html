@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Exercício 5.2</title>
+  <style>
+    section {
+      border-color: black;
+      border-style: solid;
+    }
+
+    .title {
+      text-align: center;
+    }
+
+    .main-content {
+      background-color: yellow;
+    }
+
+    .main-content .center-content {
+      background-color: red;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .main-content .center-content p {
+      font-style: italic;
+    }
+
+    .main-content .left-content {
+      background-color: green;
+      width: 60%;
+      margin-left: 0;
+      margin-right: auto;
+    }
+
+    .main-content .left-content .small-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 100%;
+    }
+
+    .main-content .right-content {
+      background-color: blue;
+      width: 60%;
+      margin-left: auto;
+      margin-right: 0;
+    }
+
+    .main-content .description {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    let h1 = document.createElement('h1');
+    document.body.appendChild(h1)
+    h1.className = 'title'
+    h1.innerText = 'Exercício 5.2 - JavaScript DOM '
+
+    let semantica = document.createElement('main');
+    document.body.appendChild(semantica);
+    semantica.className = 'main-content';
+    
+    let section1FilhoDaMain = document.createElement('section');
+    semantica.appendChild(section1FilhoDaMain);
+    section1FilhoDaMain.className = 'center-content';
+
+    let primeiroFilhoDaSection1FilhoDaMain = document.createElement('p');
+    section1FilhoDaMain.appendChild(primeiroFilhoDaSection1FilhoDaMain);
+    primeiroFilhoDaSection1FilhoDaMain.innerText = 'to fazendo'
+
+    let section2FilhoDaMain = document.createElement('section');
+    semantica.appendChild(section2FilhoDaMain);
+    section2FilhoDaMain.className = 'left-content';
+
+    let section3FilhoDaMain = document.createElement('section');
+    semantica.appendChild(section3FilhoDaMain);
+    section3FilhoDaMain.className = 'right-content';
+
+    let imagemFilhaDaSection2FilhoDaMain = document.createElement('img');
+    section2FilhoDaMain.appendChild(imagemFilhaDaSection2FilhoDaMain);
+    imagemFilhaDaSection2FilhoDaMain.className = 'small-image';
+    imagemFilhaDaSection2FilhoDaMain.src =  'https://picsum.photos/200';
+    
+    let listaUl = document.createElement('ul')
+    section3FilhoDaMain.appendChild(listaUl)
+    let array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+    let resultado = [0];
+    
+     for (let i = 0; i < array.length; i += 1) {
+       resultado = array[i];
+
+       let filhoDoUl = document.createElement('li');
+       filhoDoUl.innerText = resultado;
+       listaUl.appendChild(filhoDoUl);
+     }
+
+     for (let i = 1; i <= 3; i += 1) {
+      let h3S = document.createElement('h3')
+      semantica.appendChild(h3S)
+     }
+   </script>
+</body>
+
+</html>
