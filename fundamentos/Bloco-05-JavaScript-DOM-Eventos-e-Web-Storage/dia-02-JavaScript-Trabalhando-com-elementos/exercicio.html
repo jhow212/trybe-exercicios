@@ -103,9 +103,14 @@
      }
 
      for (let i = 1; i <= 3; i += 1) {
-      let h3S = document.createElement('h3')
-      semantica.appendChild(h3S)
+      let h3S = document.createElement('h3');
+      semantica.appendChild(h3S);
+      h3S.className = 'description';
      }
+
+     semantica.removeChild(section2FilhoDaMain)
+     section3FilhoDaMain.style.marginRight = 'auto'
+     semantica.style.backgroundColor = 'green'
    </script>
 </body>
 
