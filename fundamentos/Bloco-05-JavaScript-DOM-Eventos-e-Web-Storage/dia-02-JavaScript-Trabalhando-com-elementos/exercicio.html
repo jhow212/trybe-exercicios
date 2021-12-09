@@ -91,6 +91,8 @@
     
     let listaUl = document.createElement('ul')
     section3FilhoDaMain.appendChild(listaUl)
+
+
     let array = ['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
     let resultado = [0];
     
@@ -109,8 +111,21 @@
      }
 
      semantica.removeChild(section2FilhoDaMain)
-     section3FilhoDaMain.style.marginRight = 'auto'
-     semantica.style.backgroundColor = 'green'
+     section3FilhoDaMain.style.marginRight = 'auto';
+     semantica.style.backgroundColor = 'green';
+
+     let elemento = document.getElementsByTagName('li');
+     for (let i = 0; i < elemento.length; i += 1) {
+       console.log(elemento[i])
+       if (elemento[i].innerText === 'dez') {
+         listaUl.removeChild(elemento[i]);
+       }
+     }
+     for (let i = 0; i < elemento.length; i += 1) {
+       if (elemento[i].innerText === 'nove') {
+        listaUl.removeChild(elemento[i]);
+       }
+     }
    </script>
 </body>
 
