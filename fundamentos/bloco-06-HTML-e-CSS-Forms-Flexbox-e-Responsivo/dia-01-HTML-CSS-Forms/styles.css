@@ -1,10 +1,15 @@
+.centrao {
+    max-width: 60%;
+    margin: auto;
+}
+
 #resumo {
     resize: none;
 
 }
-
-* {
-    background-color: rgb(212, 202, 184);
-    color: black;
+.centrao {
+    background-color: rgb(127, 228, 211);
+    box-shadow: blueviolet 5px 5px 20px 20px;  
 }
+
 
