@@ -26,6 +26,3 @@ const maiorPalavra = frase => {
 }
 
 console.log(maiorPalavra("to ansioso para hoje e para dia 21!"));
-
-//EXERCICIO 3
-
