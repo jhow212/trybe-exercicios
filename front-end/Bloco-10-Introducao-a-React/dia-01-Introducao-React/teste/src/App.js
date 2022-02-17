@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Img from './img.jsx'
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Img} className="App-logo" alt="logo" />
+        <img src={Img} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -21,5 +25,15 @@ function App() {
     </div>
   );
 }
+
+// App.js
+
+// function App() {
+//   return (
+//     <div className='App'>
+//       <h1>APP</h1>
+//     </div>
+//   );
+// }
 
 export default App;
