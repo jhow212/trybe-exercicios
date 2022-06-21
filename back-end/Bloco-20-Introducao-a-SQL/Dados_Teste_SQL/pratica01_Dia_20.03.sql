@@ -1,0 +1,2 @@
+SELECT * FROM sakila.customer
+WHERE email LIKE 'LEONARD.SCHOFIELD@%';

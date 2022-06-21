@@ -1,0 +1,1 @@
+SELECT COUNT(title) AS 'Quantidade de Filmes' FROM sakila.film;

@@ -1,0 +1,1 @@
+SELECT COUNT(staff_id) FROM sakila.staff;

@@ -1,0 +1,1 @@
+SELECT title, release_year, length, rating, replacement_cost  FROM sakila.film LIMIT 20;
