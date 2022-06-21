@@ -1,0 +1,1 @@
+SELECT CONCAT(title, ' ', release_year) AS 'Lançamento do Filme', CONCAT(title, ' ', rating) AS 'Classificação' FROM sakila.film;
